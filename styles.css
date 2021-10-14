@@ -24,6 +24,7 @@ h2{
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 hr{
     margin: 2rem 0rem;
@@ -120,4 +121,18 @@ text-align: center;
     
 .ow{
     background-color: var(--off-white);
+}
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
