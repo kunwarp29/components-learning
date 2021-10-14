@@ -20,6 +20,7 @@ h2{
 
     --primary-color:purple;
     --dark-gray: #6B7280;
+    --off-white:#F3F4F6;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -106,8 +107,17 @@ text-align: center;
 .hero .hero-heading .heading-inverted{
     color: var(--primary-color);
 
-}     
+} 
+.section{
+    padding: 2rem;
+}
 
-.section h1,h2,h3{
+}    
+
+.section h1 { 
     text-align: center;
+}
+    
+.ow{
+    background-color: var(--off-white);
 }
